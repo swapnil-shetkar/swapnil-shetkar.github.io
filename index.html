@@ -1,0 +1,225 @@
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="my portfolio website, my cv, about me, my skils,developer">
+<meta name="keywords" content="swapnil, my projects,what i like to do,skills, who i am">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+	<script src="js/panel.js"></script>
+	<link rel="stylesheet" href="css/responsive_grid.css">
+	<link rel="icon" href="favicon.ico">
+<style>
+img.fullscreen {
+max-height:60vh;
+max-width:100%;
+}
+.courier {
+font-family:courier;
+}
+.monaco {
+font-family:monaco;
+}
+</style>
+</head>
+<body>
+<div data-role="page" id="home">
+	<div data-role="header" data-position="fixed" data-theme="b" >
+		<a class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-bars courier " href="#menu" >About</a>
+		<h6>Hi i'm Swapnil</h6>
+		<a class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-laft ui-icon-bars ">v 1.0</a>
+	</div>
+
+<div data-role="main" class="ui-content">
+	<img src="img/swapnil.jpg" class="fullscreen" alt="swapnil">
+	<br><br>
+	<b class="courier">Lovingly designed and developed by me....</b>
+	<h1>Skills</h1>
+	<h4 class="courier">html</h4><input type="range" name="slider-fill" id="slider-fill-mini" disabled="disabled" value="95" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true" >
+	<h4 class="courier">c,c++</h4><input type="range" name="slider-fill" id="slider-fill-mini"  disabled="disabled" value="96" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true" >
+	<h4 class="courier">Java</h4><input type="range" name="slider-fill" id="slider-fill-mini"  disabled="disabled" value="80" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true">
+	<h4 class="courier">css</h4><input type="range" name="slider-fill" id="slider-fill-mini" disabled="disabled" value="85" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true">
+	<h4 class="courier">jquary mobile</h4><input type="range" name="slider-fill" id="slider-fill-mini" disabled="disabled" value="90" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true">
+	<h4 class="courier">dart</h4><input type="range" name="slider-fill" id="slider-fill-mini" disabled="disabled" value="65" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true">
+	<h4 class="courier">Java Script</h4><input type="range" name="slider-fill" id="slider-fill-mini"  disabled="disabled" value="75" min="0" max="100" data-theme="b" data-track-theme="a" data-highlight="true" >
+</div>
+
+<footer data-role="footer" data-position="fixed" data-theme="b">
+	<nav data-role="navbar">
+		<ul>
+			<li><a href="https://github.com/swapnil-shetkar">Github</a></li>
+			<li><a href="https://t.me/swapnil_shetkar">Telegram</a></li>
+			<li><a href="https://forum.xda-developers.com/member.php?u=10825241">XDA</a></li>
+			<li><a href="https://www.instagram.com/swapnill_shetkar/">Instagram</a></li>
+		</ul>
+	</nav>
+</footer>
+</div>
+
+<div data-role="panel" id="menu" data-display="reval" data-theme="b" data-swipe-close="true"> 
+	<h2 class="monaco">Dev-Swapnil</h2>
+		<ul data-role="listview" data-theme="b" data-filter="true" data-filter-theme="a" >
+			<li><a href="#whoiam" data-transition="flip" class="monaco">Who i am</a></li>
+			<li><a href="#whatcanido" data-transition="flip" class="monaco">What i like to do</a></li>
+			<li><a href="#myprojects" data-transition="flip" class="monaco">My projects</a></li>
+		</ul>
+	<br>
+	<div data-role="collapsible" data-inset="false" data-iconpos="right" data-collapsed-icon="carat-r">
+		<h3>Education</h3>
+		<ul data-role="listview">
+			<li>
+			<a href="https://gbshse.gov.in/institution/hs063-pope-john-xxiii-higher-secondary-school">
+			<h3>Pope John XXIII highschool</h3>
+			<p>10th</p>
+			</a>
+			</li>
+			<li>
+			<a href="https://goo.gl/maps/T1CwT8dMioGee7Jx6">
+			<h3>C.T.N</h3>
+			<p>MREEDA</p>
+			</a>
+			</li>
+			<li>
+			<a href="https://www.gpc.nic.in">
+			<h3>GPC</h3>
+			<p>Computer Engineering</p>
+			</a>
+			</li>
+		</ul>
+	</div>
+</div>
+
+<div data-role="page" id="whoiam">
+	<div data-role="header" data-position="fixed" data-theme="b">
+		<a class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-back" href="#home" data-transition="turn" >back</a>
+		<h1>Who i am</h1>
+	</div>
+
+	<div data-role="content" >
+	<div class="rwd-example">
+		<div class="ui-block-b">
+			<div class="ui-body ui-body-d">
+				<h2 class="monaco">Web developer</h2>
+				<p>Excited to be at the development phase of my new career as a web developer. </p>
+			</div>
+		</div>
+		<div class="ui-block-b">
+			<div class="ui-body ui-body-d">
+				<h2 class="monaco">Programmer</h2>
+				<p>I appreciate how challenging modern computer programming can be. i am enthusiastic to take new challenging tasks. this is the only way to gain further knowledge.</p>
+			</div>
+		</div>
+			<div class="ui-block-c">
+			<div class="ui-body ui-body-d">
+				<h2 class="monaco">OpenStreetMaper</h2>
+				<p>I like to contribute in opensource because i believe in an open web.</p>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<footer data-role="footer" data-position="fixed" data-theme="b">
+		<nav data-role="navbar">
+			<ul>
+			<li><a href="#home" data-transition="slide" data-direction="reverse">home</a></li>
+			</ul>
+		</nav>
+	</footer>
+</div>
+
+<div data-role="page" id="whatcanido">
+	<div data-role="header" data-position="fixed" data-theme="b">
+	<a class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-back" href="#home" data-transition="turn" >back</a>
+	<h3 class="monaco">What i like to do</h2>
+	</div>
+
+	<div data-role="content">
+		<div class="rwd-example">
+			<div class="ui-block-b">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">Develop websites/webapps</h3>
+					<img src="img/1.png" height="250px" width="300px">
+				</div>
+			</div>
+			<div class="ui-block-b">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">Develop native apps for both android and ios</h3><br>
+					<img src="img/2.png" height="200px" width="300px">
+					</div>
+			</div>
+			<div class="ui-block-c">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">CNC projects</h3>
+					<img src="img/3.png" height="250px" width="300px">
+				</div>
+			</div>
+				<div class="ui-block-c">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">Programming</h3>
+					<img src="img/4.png" height="300px" width="300px">
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-theme="b">
+		<nav data-role="navbar">
+			<ul>
+			<li><a href="#home" data-transition="flip">home</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<div data-role="page" id="myprojects">
+	<div data-role="header" data-position="fixed" data-theme="b">
+	<a class="ui-btn ui-btn-b ui-btn-inline ui-mini ui-corner-all ui-btn-icon-right ui-icon-back" href="#home" data-transition="turn" >back</a>
+	<h2>My projects</h2>
+	</div>
+
+	<div data-role="content">
+		<div class="rwd-example">
+			<div class="ui-block-b">
+				<div class="ui-body ui-body-d">
+					<h4 class="monaco">Arduino stack playing robot</h4>
+					<img src="img/stack1.png" height="100%" width="100%"><br><br>
+				</div>
+			</div>
+			<div class="ui-block-b">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">Ultrasonic parking radar</h3>
+					<img src="img/radar1.png" height="150" width="100%"><br><br>
+					</div>
+			</div>
+			<div class="ui-block-c">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">GPC app</h3>
+					<img src="img/gpc1.png" height="100%" width="100%">
+					<img src="img/gpc2.png" height="100%" width="100%"><br><br>
+				</div>
+			</div>
+			<div class="ui-block-c">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">OpenStreetMap edits</h3>
+					<img src="img/osm.png" height="150" width="100%"><br><br>
+				</div>
+			</div>
+				<div class="ui-block-c">
+				<div class="ui-body ui-body-d">
+					<h3 class="monaco">My Portfolio website</h3>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div data-role="footer" data-position="fixed" data-theme="b">
+		<nav data-role="navbar">
+		<ul>
+			<li><a href="#home" data-transition="flip">home</a></li>
+			</ul>
+		</nav>
+	</div>
+</div>
+</body>
+</html>
